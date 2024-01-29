@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+    --color1-1:#5E5E5E;
+    --color1-2:#2E8F0A;
+    --color1-3:#287A1F;
+    --color1-4:#493C3C;
+
+    --color2-1:#CAD2C5;
+    --color2-2:#84A98C;
+    --color2-3:#52796F;
+    --color2-4:#354F52;
+    --color2-5:#2F3E46;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.5rem;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color2-5);
+    color: var(--color2-1);
+    display: grid;
+    place-content: center;
+    margin-left: 120px; /* Ensure this value is greater than the width of the vertical header */
+    padding: 20px;
+}
+button.Button {
+    border: none;
+    color: var(--color2-1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: var(--color2-4);
+}
+
+
+/*Header box*/
+
+.headerContainer {
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .verticalHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px; /* Adjust this width as per your preference */
+    height: 100%; /* Adjust this height as per your preference */
+    background-color: var(--color2-5);
+  }
+  .verticalHeader nav ul {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .verticalHeader nav ul li {
+    margin-bottom: 15px;
+  }
+  
+  .verticalHeader nav ul li a {
+    text-decoration: none;
+    color: var(--color2-2);
+    font-weight: bold;
+  }
+  
+  .verticalHeader nav ul li a:hover {
+    color: var(--color2-1);
+  }
+  a#Login {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color: var(--color2-2);
+    font-weight: bold;
+    padding: 20px;
+}
+a#Login:hover {color: var(--color2-1);}

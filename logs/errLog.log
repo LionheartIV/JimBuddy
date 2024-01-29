@@ -1,0 +1,15 @@
+29012024	12:37:25	2fd7d1b0-cbf7-425a-9da2-8d7c5f3b656d	SyntaxError: Unexpected token '6', "#" is not valid JSON	DELETE	/users	undefined
+29012024	12:37:45	bfc93efd-24cf-496c-9571-9e57d77ecbcd	SyntaxError: Unexpected token '6', "#" is not valid JSON	GET	/users	undefined
+29012024	12:38:03	746f7dd3-2be4-4c89-ad2f-4487a288d2ea	SyntaxError: Expected ',' or ']' after array element in JSON at position 189	DELETE	/users	undefined
+29012024	12:38:10	e0a768e7-38c4-4f89-8cea-3bbf3f989a0b	TypeError: res.status(...) is not a function	DELETE	/users	undefined
+29012024	12:38:16	1f12be58-e714-440f-a2b7-493f36a25354	SyntaxError: Expected double-quoted property name in JSON at position 60	DELETE	/users	undefined
+29012024	12:38:23	73859bb3-b39e-4d45-ba7d-1290fb7dc313	TypeError: res.status(...) is not a function	DELETE	/users	undefined
+29012024	12:38:55	eeee0151-e363-4973-8c31-e0e7894e5ccb	TypeError: res.status(...) is not a function	DELETE	/users	undefined
+29012024	12:43:21	7b7ec00f-63a2-4577-ac04-a5d465d43746	SyntaxError: Unexpected end of JSON input	GET	/users	undefined
+29012024	12:43:56	c12ff77c-957d-46a3-852e-4a0f9db5b37d	SyntaxError: Unexpected end of JSON input	GET	/users	undefined
+29012024	12:54:25	ad4a55ef-6d65-4207-8f3e-c6d29de4c9cc	SyntaxError: Unexpected end of JSON input	GET	/users	undefined
+29012024	13:00:08	a7840867-e8ad-44a6-a896-f84b29246624	ValidationError: User validation failed: squat: Cast to Number failed for value "100," (type string) at path "squat", bench: Cast to Number failed for value "100," (type string) at path "bench", deadlift: Cast to Number failed for value "100," (type string) at path "deadlift"	POST	/users	undefined
+29012024	13:00:28	2f66aab0-dd63-4fb0-b13c-581ff68f1bb4	ValidationError: User validation failed: squat: Cast to Number failed for value "10," (type string) at path "squat", bench: Cast to Number failed for value "10," (type string) at path "bench", deadlift: Cast to Number failed for value "10," (type string) at path "deadlift"	POST	/users	undefined
+29012024	13:11:07	4262a3ca-21ad-4e7d-bc17-c3b9817156b5	SyntaxError: Unexpected token '"', "        #" is not valid JSON	PATCH	/users	undefined
+29012024	13:11:20	3ebca12f-2bda-4c1c-bc2b-5ae8f0c71e52	SyntaxError: Unexpected token '"', "        #" is not valid JSON	GET	/users	undefined
+29012024	13:11:59	a3c8ead1-9d33-4a57-86cf-33c3baf0622a	SyntaxError: Expected double-quoted property name in JSON at position 247	PATCH	/users	undefined

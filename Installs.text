@@ -1,0 +1,56 @@
+Setup___________________
+npm init -y
+npm i express 
+npm i nodemon -D
+
+Middlewear______________
+npm i date-fns uuid
+npm i cookie-parser
+npm i cors  
+
+Server__________________
+npm i dotenv
+npm i mongoose
+npm i mongoose-sequence
+
+Controllers_____________
+npm i express-async-handler bcrypt
+
+
+
+
+
+_____Postman Create User
+{
+    "username": "Test",
+    "password": "Pass123",
+    "roles": ["Employee"]
+}
+{
+    "username": "Test2",
+    "password": "Pass123",
+    "roles": ["Employee"],
+    "squat": "10,",
+    "bench": "10,",
+    "deadlift": "10,"
+}
+_____Postman Update User
+{
+        "id": "",
+        "username": "",
+        "roles": [
+            "Employee"
+        ],
+        "active": true,
+        "squat": "0",
+        "bench": "0",
+        "deadlift": "0",
+        "__v": 0
+}
+
+
+CAD2C5
+84A98C
+52796F
+354F52
+2F3E46
