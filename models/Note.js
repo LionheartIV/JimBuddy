@@ -22,7 +22,7 @@ const noteSchema = new mongoose.Schema(
         }
     },
     {
-        timestamps: true // MongoDB, Created at and updated at timestamps
+        timestamps: true
     }
 )
 

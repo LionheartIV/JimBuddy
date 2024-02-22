@@ -13,3 +13,5 @@
 29012024	13:11:07	4262a3ca-21ad-4e7d-bc17-c3b9817156b5	SyntaxError: Unexpected token '"', "        #" is not valid JSON	PATCH	/users	undefined
 29012024	13:11:20	3ebca12f-2bda-4c1c-bc2b-5ae8f0c71e52	SyntaxError: Unexpected token '"', "        #" is not valid JSON	GET	/users	undefined
 29012024	13:11:59	a3c8ead1-9d33-4a57-86cf-33c3baf0622a	SyntaxError: Expected double-quoted property name in JSON at position 247	PATCH	/users	undefined
+22022024	14:02:03	e1284128-4490-4cd6-8ee8-6555b10d7f57	SyntaxError: Bad control character in string literal in JSON at position 26	POST	/users	undefined
+22022024	14:03:51	001e5c3c-e082-4f0e-9a32-d617133b14c4	CastError: Cast to ObjectId failed for value "65b799dbb28af05cfde7" (type string) at path "_id" for model "User"	PATCH	/users	undefined

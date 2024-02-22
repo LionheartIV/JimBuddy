@@ -24,12 +24,12 @@ _____Postman Create User
 {
     "username": "Test",
     "password": "Pass123",
-    "roles": ["Employee"]
+    "roles": ["User"]
 }
 {
     "username": "Test2",
     "password": "Pass123",
-    "roles": ["Employee"],
+    "roles": ["User"],
     "squat": "10,",
     "bench": "10,",
     "deadlift": "10,"
@@ -39,7 +39,7 @@ _____Postman Update User
         "id": "",
         "username": "",
         "roles": [
-            "Employee"
+            "User"
         ],
         "active": true,
         "squat": "0",
